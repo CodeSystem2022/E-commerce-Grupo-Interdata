@@ -7,3 +7,16 @@
 :small_blue_diamond: Franco Bianchi 
 :small_blue_diamond: Silvina Prado
 :small_blue_diamond: Francisco Chahla 
+
+# TIENDA DE ROPA 
+## Proyecto Integrador
+Éste proyecto ya se desarrollo en los lenguajes de Pseint, Java y Python el cual en este semestre sera llevado a una pagina web de un E-commerce el cual es Tienda Interdata. El mismo consiste en una tienda de ropa masculina que se dedica a la venta mayorista, se vende por curva de 5 unidades, talles y colores sin elección.
+
+# ...
+
+# TECNOLOGIAS
+Frontend: HTML, CSS, JavaScript.
+
+Backend: Node.js
+
+Base de Datos: MySql
