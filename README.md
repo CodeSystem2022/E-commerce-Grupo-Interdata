@@ -10,13 +10,18 @@
 
 # TIENDA DE ROPA 
 ## Proyecto Integrador
-Éste proyecto ya se desarrollo en los lenguajes de Pseint, Java y Python el cual en este semestre sera llevado a una pagina web de un E-commerce el cual es Tienda Interdata. El mismo consiste en una tienda de ropa masculina que se dedica a la venta mayorista, se vende por curva de 5 unidades, talles y colores sin elección.
+Éste proyecto ya se desarrollo en los lenguajes de Pseint, Java y Python el cual en este semestre sera llevado a una pagina web de un E-commerce el cual es Interdata men's wear. El mismo consiste en una tienda de ropa masculina que se dedica a la venta mayorista, se vende por curva de 5 unidades, talles y colores sin elección.
 
-# ...
+# E-COMMERCE: INTERDATA MEN'S WEAR
+Una vez que ingresan al e-commerce se van a topar con el inicio de la tienda en la cual les va a mostrar algunos productos recomendados y un menu interactivo en el cual pueden elegir que producto desean comprar (remera, hoodie, jeans y joggings) tambien pueden observar los productos destacados, el catalogo, el carrito y su cuenta.
+Una vez que eligen los productos que van a comprar los lleva al carrito para que puedan ver lo seleccionado y asi elegir el metodo de pago, dependiendo el metodo que elijan son los datos que se procederan a pedir, los metodos pueden ser: transferencia bancaria, tarjeta de Débito, tarjeta de Crédito o mercado Pago.
+Una vez realizada la compra les agradecera y los devolvera al inicio de la tienda.
+
+# EJECUCION
 
 # TECNOLOGIAS
-Frontend: HTML, CSS, JavaScript.
+Frontend: HTML, CSS, JavaScript, sass
 
-Backend: Node.js
+Backend: Node.js (express)
 
 Base de Datos: MySql
