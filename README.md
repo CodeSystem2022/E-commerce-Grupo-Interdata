@@ -12,7 +12,7 @@
 ## Proyecto Integrador
 Proyecto anteriormente desarrollado en Pseint, Java y Python el cual convertimos en un E-commerce llamado Interdata men's wear. El mismo consiste en una tienda de ropa masculina, con catálogo, productos destacados y menú interactivo.
 # Screenshots
-
+https://raw.githubusercontent.com/CodeSystem2022/E-commerce-Grupo-Interdata/tree/1c1e14cf4b6806f04f326c8ea3bf6320d447656d/imgspreview
 # E-COMMERCE: INTERDATA MEN'S WEAR
 Una vez que ingresan al e-commerce se van a topar con el inicio de la tienda en la cual les va a mostrar algunos productos recomendados y un menu interactivo en el cual pueden elegir que producto desean comprar (remera, hoodie, jeans y joggings) tambien pueden observar los productos destacados, el catalogo, el carrito y su cuenta.
 Una vez que eligen los productos que van a comprar los lleva al carrito para que puedan ver lo seleccionado y asi elegir el metodo de pago, dependiendo el metodo que elijan son los datos que se procederan a pedir, los metodos pueden ser: transferencia bancaria, tarjeta de Débito, tarjeta de Crédito o mercado Pago.
