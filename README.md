@@ -12,8 +12,10 @@
 ## Proyecto Integrador
 Proyecto anteriormente desarrollado en Pseint, Java y Python el cual convertimos en un E-commerce llamado Interdata men's wear. El mismo consiste en una tienda de ropa masculina, con catálogo, productos destacados y menú interactivo.
 # Screenshots
-![https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/main/imgspreview/layoutreadme.png](https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/11066d9f54100345480039972290b5681d65c016/imgspreview/layoutreadme.png)
+![https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/14baf0c36a6d6fc7452149485f7542fcc69b1b9a/imgspreview/layoutreadme.png](https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/14baf0c36a6d6fc7452149485f7542fcc69b1b9a/imgspreview/layoutreadme.png)
+#
 ![https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/b78dc35c5ecdecb59f253992be2ef6079621ac3d/imgspreview/menú.png](https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/11066d9f54100345480039972290b5681d65c016/imgspreview/menú.png)
+#
 ![https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/b78dc35c5ecdecb59f253992be2ef6079621ac3d/imgspreview/menú.png](https://github.com/CodeSystem2022/E-commerce-Grupo-Interdata/blob/11066d9f54100345480039972290b5681d65c016/imgspreview/catalogo.png)
 
 
