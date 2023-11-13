@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="./css/stylenav.css">
+    <link rel="stylesheet" href="./main.css">
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        /* Estilo CSS para las separaciones entre grupos de productos */
+        .product-group {
+            padding: 5%;
+            padding-bottom: 1px;
+            padding-top: 5px;
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+        .product-group h1 {
+            font-family: 'Bebas Neue';
+            font-size: 50px;
+            padding: 1px;
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="wrap">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm mb-2 mb-sm-0">
+                    <p class="mb-0 phone"><span class="fa fa-phone"></span> <a href="#">+00 1234 567</a></p>
+                </div>
+                <div class="col-12 col-sm-auto d-flex justify-content-end">
+                    <div class="social-media">
+                        <p class="mb-0 d-flex">
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Interdata<span>Men's wear</span></a>
+            <form action="#" class="searchform order-sm-start order-lg-last">
+                <div class="form-group d-flex">
+                    <input type="text" class="form-control pl-3" placeholder="Search">
+                    <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+                </div>
+            </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos destacados</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown04">
+                            <a class="dropdown-item" href="./remeras.html">Remeras</a>
+                            <a class="dropdown-item" href="./hoodies.html">Hoodies</a>
+                            <a class="dropdown-item" href="./pantalones.html">Pantalones</a>
+                            <a class="dropdown-item" href="./trajes.html">Trajes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="./catalog.html" class="nav-link">Catalog</a></li>
+                    <li class="nav-item"><a href="#" data-toggle="modal" data-target="#cartModal" class="nav-link">Mi carrito</a></li>
+                    <li class="nav-item"><a href="/Login-ecommerce/app/pages/login.html" class="nav-link">Mi cuenta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="product-group">
+        <h1>Remeras</h1>
+        <section class="product">
+            <img src="https://d368r8jqz0fwvm.cloudfront.net/49237-product_lg/remera-de-hombre-crux.jpg" alt="Producto 1">
+            <h2>Remera Montagne</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Remera Montagne', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://newsport.vtexassets.com/arquivos/ids/16079125-800-auto?v=638193536775770000&width=800&height=auto&aspect=true" alt="Producto 2">
+            <h2>Remera Andez</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $80</p>
+            <button onclick="addToCart('Remera Andez', 80)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://d368r8jqz0fwvm.cloudfront.net/43138-product_list_sm/remera-de-hombre-sam-heritage.jpg" alt="Producto 1">
+            <h2>Remera Heritage</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Remera Heritage', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://www.fasthouse.com/cdn/shop/products/TraceSSTechTee-Indigo_BodyF_1200_300x.jpg?v=1690995619" alt="Producto 1">
+            <h2>Remera TraceTech</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Remera TraceTech', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://m.media-amazon.com/images/I/812+dX7jxWL._UF1000,1000_QL80_.jpg" alt="Producto 1">
+            <h2>Remera Buffalo</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Remera Buffalo', 100)">Agregar al Carrito</button>
+        </section>
+    </div>
+    
+    <div class="product-group">
+        <h1>Hoodies</h1>
+        <section class="product">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fea%2F41%2Fea4150662eae39c97f8e60f5930a763517ae3305.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt="Producto 1">
+            <h2>Hoodie Aqua</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $500</p>
+            <button onclick="addToCart('Hoodie Aqua', 500)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://www.gapcanada.ca/webcontent/0052/362/304/cn52362304.jpg" alt="Producto 2">
+            <h2>Hoodie Lavender</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $80</p>
+            <button onclick="addToCart('Hoodie Lavender', 80)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F29%2Ffc%2F29fcb7493bcfa90fbdf1b20efe47f94433cd23fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]" alt="Producto 1">
+            <h2>Hoodie Raw</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Hoodie Raw', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://en-ae.sssports.com/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw63d3af72/sss/N/K/C/NKCZ7515_658_194954755946_1.jpg" alt="Producto 1">
+            <h2>Hoodie Bubblegum</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Hoodie Bubblegum', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://cache.mrporter.com/variants/images/13452677152048330/ou/w2000_q60.jpg" alt="Producto 1">
+            <h2>Hoodie WildOne</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Hoodie WildOne', 100)">Agregar al Carrito</button>
+        </section>
+    </div>
+    
+    <div class="product-group">
+        <h1>Pantalones</h1>
+        <section class="product">
+            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1692713955-115-64e4c3d3c9421.jpg?crop=0.869xw:0.580xh;0.0849xw,0.370xh&resize=980:*" alt="Producto 1">
+            <h2>Pantalón Montagne</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Pantalón Montagne', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu17Bui8wr8YwINOX65qTL09ip8NeDc5_ot8bLjbMa8hrHOCSMTSRWqDr8GHidkXtlFEQ&usqp=CAU" alt="Producto 2">
+            <h2>Pantalón Indigo</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $80</p>
+            <button onclick="addToCart('Pantalón Indigo', 80)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230314/RSWy/64103631f997dde6f4f7ab32/-473Wx593H-469466795-black-MODEL.jpg" alt="Producto 1">
+            <h2>Pantalón Heritage</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Pantalón Heritage', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://images.bloomingdalesassets.com/is/image/BLM/products/9/optimized/13163249_fpx.tif?$2014_BROWSE_FASHION$&fmt=jpeg&op_usm=0.7,1.0,0.5,0&resMode=sharp2&qlt=85,0&wid=280&hei=350" alt="Producto 1">
+            <h2>Pantalón Bloomingdale's</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Pantalón Bloomingdale', 100)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://kmd-assets.imgix.net/catalog/product/1/4/14870_102_flight_mens_pants_natural_a.jpg?auto=compress%2Cformat&fit=cover&ar=100%3A100&ixlib=react-9.5.1-beta.1" alt="Producto 1">
+            <h2>Pantalón Kathmandu</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $100</p>
+            <button onclick="addToCart('Pantalón Kathmandu', 100)">Agregar al Carrito</button>
+        </section>
+    </div>
+    
+    <div class="product-group">
+        <h1>Trajes</h1>
+        <section class="product">
+            <img src="https://media.dior.com/couture/ecommerce/media/catalog/product/3/Q/1690801257_933C702A5873_C120_E01_GH.jpg?imwidth=3840" alt="Producto 1">
+            <h2>Conjunto Dior</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $1000</p>
+            <button onclick="addToCart('Conjunto Dior', 1000)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://www.tiendahugobosschile.com/images/large/tiendahugobosschile/Trajes%20de%20esmoquin%20BOSS%20Double%20Breas%201511_ZOOM.jpg" alt="Producto 2">
+            <h2>Traje BOSS Double Relaxed</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $2080</p>
+            <button onclick="addToCart('Traje BOSS Double Relaxed', 2080)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://slimages.macysassets.com/is/image/MCY/products/7/optimized/14538727_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1" alt="Producto 1">
+            <h2>Traje Hugo Boss Slim</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $1900</p>
+            <button onclick="addToCart('Traje Hugo Boss Slim', 1900)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://images.hugoboss.com/is/image/boss/hbeu50502334_240_300?$large$=&fit=crop,1&align=1,1&lastModified=1696622404000&wid=270&qlt=80" alt="Producto 1">
+            <h2>Conjunto NYC Brown Hugo Boss</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $1563</p>
+            <button onclick="addToCart('Conjunto NYC Brown Hugo Boss', 1563)">Agregar al Carrito</button>
+        </section>
+
+        <section class="product">
+            <img src="https://cache.mrporter.com/variants/images/13452677152048330/ou/w2000_q60.jpg" alt="Producto 1">
+            <h2>Traje Fiktion Dilemma</h2>
+            <p>Talles: S, M, L, XL</p>
+            <p>Precio: $1240</p>
+            <button onclick="addToCart('Traje Fiktion Dilemma', 1563)">Agregar al Carrito</button>
+        </section>
+    </div>
+
+    <a href="index.html" class="back-button">Volver Atrás</a>
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Mi carrito
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-image">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cartTableBody">
+                            <!-- Aquí se agregarán los productos -->
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-end">
+                        <h5>Total: <span class="price text-success" id="totalPrice">0$</span></h5>
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0 d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="carrito.html" class="btn btn-success">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Interdata</p>
+</footer>
+<script>
+    $('#cartModal').on('show.bs.modal', function (e) {
+        updateCartTable();
+    });
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="./indexx.js"></script>
+<script src="./addToCart.js"></script>
+</body>
+</html>
+</body>
+</html>
