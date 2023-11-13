@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.confirmation-box {
+    border: 1px solid #d35400;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.checkmark, h1, .home-button {
+    color: #d35400;
+}
+
+.checkmark {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.home-button {
+    background-color: #d35400;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #ba4a00;
+}
+
+.confirmation-box:hover {
+    transform: scale(1.02);
+}
+
+.home-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(211, 84, 0, 0.4);
+}

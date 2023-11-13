@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/front/checkout.css"> 
+    <title>Checkout</title>
+</head>
+<body>
+    <a href="/front/index.html" class="back-button" style="background-color: rgb(42, 50, 158); color: white; padding: 10px 20px; margin-top: 5px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">
+        Volver Atrás
+      </a>
+      <div class="container">
+        <div class="price">
+            <h1>Elegí tu método de pago</h1>
+        </div>
+        <div class="card__container">
+            <div class="card">
+                <div class="row paypal">
+                    <div class="left">
+                        <input id="pp" type="radio" name="payment" />
+                        <div class="radio"></div>
+                        <label for="pp">MercadoPago</label>
+                    </div>
+                    <div class="right">
+                        <img src="https://pbs.twimg.com/profile_images/1609933607006519297/JfQLdV9q_400x400.jpg" alt="MercadoPago" />
+                    </div>
+                </div>
+                <div class="row credit">
+                    <div class="left">
+                        <input id="cd" type="radio" name="payment" />
+                        <div class="radio"></div>
+                        <label for="cd">Débito / Crédito</label>
+                    </div>
+                    <div class="right">
+                        <img src="https://cdn.worldvectorlogo.com/logos/visa-5.svg" alt="visa" />
+                        <img src="https://logohistory.net/wp-content/uploads/2023/05/Mastercard-Logo-1990.png" alt="mastercard" />
+                        <img src="https://cdn.icon-icons.com/icons2/1178/PNG/512/amex-inverted_82041.png" alt="amex" />
+                    </div>
+                </div>
+                <div class="row cardholder">
+                    <div class="info">
+                        <label for="cardholdername">Nombre Completo</label>
+                        <input placeholder="e.g. Richard Bovell" id="cardholdername" type="text" />
+                    </div>
+                </div>
+                <div class="row number">
+                    <div class="info">
+                        <label for="cardnumber">N° tarjeta</label>
+                        <input id="cardnumber" type="text" pattern="[0-9]{16,19}" maxlength="19" placeholder="8888-8888-8888-8888"/>
+                    </div>
+                </div>
+                <div class="row details">
+                    <div class="left">
+                        <label for="expiry-date">VTO</label>
+                        <select id="expiry-date">
+                            <option>MM</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <span>/</span>
+                         <select id="expiry-date">
+                            <option>YYYY</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                    </div>
+                    <div class="right">
+                        <label for="cvv">CVV</label>
+                        <input type="text" maxlength="4" placeholder="123"/>
+                        <span data-balloon-length="medium" data-balloon="The 3 or 4-digit number on the back of your card." data-balloon-pos="up">i</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button type="submit" onclick="window.location.href='/front/comprafinalizada/prueba.html'"><i class="ion-locked"></i> Confirmar y pagar</button>
+        </div> 
+    </div>
+</body>
+</html>

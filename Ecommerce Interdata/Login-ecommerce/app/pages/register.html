@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Agregado para los íconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Login-ecommerce/app/public/style.css">
+    <title>Formulario de Registro</title>
+    <script src="register.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form id="register-form">
+        <h3>Regístrate</h3>
+        <label>
+            <i class='bx bxs-user'></i>
+            <input type="text" placeholder="Nombre" required>
+        </label>
+        <label>
+            <i class='bx bxs-envelope'></i>
+            <input type="email" placeholder="Correo electrónico" required>
+        </label>
+        <label>
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" placeholder="Contraseña" required>
+        </label>
+        <button id="botonRegistrarse">Regístrate</button> 
+           <script>
+            // Agrega un manejador de eventos para el botón "Registrarse"
+            var botonRegistrarse = document.querySelector('#botonRegistrarse');
+          
+            botonRegistrarse.addEventListener('click', function() {
+              // Redirige a la página "index.html" al hacer clic en el botón
+              window.location.href = '/front/index.html';
+            });
+          </script>
+          
+        <div class="social">
+            <div class="go"><i class="fab fa-google"></i>  Google</div>
+            <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+        <p class="register-link">¿Ya tienes una cuenta? <a href="/Login-ecommerce/app/pages/login.html">Iniciar sesión</a></p>
+    </form>
+</body>
+</html>
